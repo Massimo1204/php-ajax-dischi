@@ -14,3 +14,7 @@ main {
     width: 50px;
     border-radius: 50%;
 }
+
+.card {
+    background-color: rgb(46, 58, 70);
+}
