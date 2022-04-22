@@ -1,0 +1,16 @@
+header {
+    background-color: rgb(46, 58, 70);
+    padding: 0.7rem 1.2rem;
+}
+
+main {
+    background-color: rgb(30, 45, 59);
+    min-height: calc(100vh - (50px + 1.4rem));
+}
+
+.my-logo{
+    filter: brightness(0) saturate(100%) invert(56%) sepia(99%) saturate(385%) hue-rotate(89deg) brightness(99%) contrast(92%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
