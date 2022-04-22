@@ -4,6 +4,13 @@ const App = new Vue({
         albums: [],
     },
     created(){
-        axios.get("localhost/php-ajax-dischi-")
+        axios.get("http://localhost/php-ajax-dischi/server/controller.php").then(
+            (result) => {
+                this.albums = result.data;
+                console.log(result);
+            }
+        ).catch((error) => {
+            console.error(error);
+        })
     },
 })
