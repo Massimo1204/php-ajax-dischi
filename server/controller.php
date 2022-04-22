@@ -3,5 +3,10 @@
 
     header('Content-Type: application/json');
 
-    echo json_encode($albums);
+    echo json_encode(
+        [
+            "results" => $albums,
+            "length" => count($albums),
+        ]
+    );
 ?>
