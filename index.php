@@ -14,7 +14,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Css stylesheet -->
     <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
+
+    <title>Dischi</title>
 </head>
 <body>
     <div id="app">
@@ -23,6 +24,7 @@
             include __DIR__ . '/partials/main.php';
         ?>
     </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
     <script src="js/script.js"></script>
 </body>

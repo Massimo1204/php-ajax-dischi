@@ -1,5 +1,4 @@
 header {
-    background-color: rgb(46, 58, 70);
     padding: 0.7rem 1.2rem;
 }
 
@@ -15,6 +14,7 @@ main {
     border-radius: 50%;
 }
 
+header ,
 .card {
     background-color: rgb(46, 58, 70);
 }
